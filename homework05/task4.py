@@ -1,7 +1,6 @@
 def get_longest_word(str):
-    words=str.split()
     long_word=""
-    for i in words:
+    for i in str.split():
         if len(i)>len(long_word):
             long_word=i
     return long_word
